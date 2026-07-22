@@ -1,6 +1,8 @@
 node_modules/
+.npm-cache/
 dist/
 .vite/
+*.tsbuildinfo
 __pycache__/
 *.pyc
 .pytest_cache/
@@ -10,4 +12,3 @@ venv/
 .env.local
 portfolio.db
 .DS_Store
-

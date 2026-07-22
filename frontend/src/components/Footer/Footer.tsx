@@ -1,9 +1,9 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { BriefcaseBusiness, Code2, Mail } from "lucide-react";
 import { profile } from "../../data/portfolio";
 
 const links = [
-  { label: "GitHub", href: "https://github.com", icon: Github },
-  { label: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
+  { label: "Code", href: "https://github.com", icon: Code2 },
+  { label: "Work", href: "https://linkedin.com", icon: BriefcaseBusiness },
   { label: "Email", href: `mailto:${profile.email}`, icon: Mail },
 ];
 
@@ -31,4 +31,3 @@ export function Footer() {
     </footer>
   );
 }
-
